@@ -16,10 +16,10 @@
   const prefixCls = 'v-button';
 
   export default {
+    name: prefixCls,
     components: { 
       'v-icon': Icon
     },
-    name: prefixCls,
     props: {
       type: {
         validator(value) {
